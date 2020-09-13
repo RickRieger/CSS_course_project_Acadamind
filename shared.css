@@ -12,6 +12,7 @@ body {
   background: #2ddf5c;
   padding: 10px 16px;
   position: fixed;
+  top: 0px;
   z-index: 1;
 }
 
@@ -25,6 +26,11 @@ body {
   font-weight: bold;
   font-size: 22px;
   vertical-align: middle;
+  display: inline-block;
+  height: 22px;
+}
+.main-header__brand img {
+  height: 100%;
 }
 .main-nav {
   display: inline-block;
