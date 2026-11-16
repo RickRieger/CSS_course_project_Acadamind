@@ -160,12 +160,19 @@
   display: none;
   z-index: 200;
   top: 20%;
-  left: 30%;
-  width: 40%;
+  left: 5%;
+  width: 90%;
   background: white;
   padding: 1rem;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 40rem) {
+  .modal {
+    left: 30%;
+    width: 40%;
+  }
 }
 
 .modal__title {
